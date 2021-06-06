@@ -7,7 +7,7 @@ Proceso Ejercicio14
 	Escribir "Ingrese dos valores"
 	Leer num1, num2
 	residuo = num1%num2
-	Si residuo == 0
+	Si residuo == 0 Entonces
 		Escribir "Es divisible"
 	SiNo
 		Escribir "No es divisible"
