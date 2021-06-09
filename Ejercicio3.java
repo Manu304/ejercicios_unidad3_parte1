@@ -12,6 +12,6 @@ public class Ejercicio3 {
         int num = scanner.nextInt();
         int doble = 2*num;
         int triple = 3*num;
-        System.out.println("El doble del numero " + num + "es: " + doble + " y el triple es: " + triple);
+        System.out.println("El doble del numero " + num + " es: " + doble + " y el triple es: " + triple);
     }
 }
