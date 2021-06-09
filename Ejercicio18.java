@@ -16,7 +16,7 @@ public class Ejercicio18 {
         if((num >= 0) && (num <= 9999)){
             String numero = Integer.toString(num);
             int digito = numero.length();
-            char[] digitosSacados = {0,0,0,0};
+            char[] digitosSacados = {'0','0','0','0'};
             
             if(digito > 0){
                 char[] digitos = numero.toCharArray();
@@ -26,12 +26,13 @@ public class Ejercicio18 {
             }
             int suma = 0;
             for(int i=0; i<4; i++){
-                suma =+ Integer.valueOf(digitosSacados[i]);
+                suma = suma + Character.getNumericValue(digitosSacados[i]);
             }
-            for (int i=1; i <=4; i++){
-                System.out.print("d" + i + " = " + digitosSacados[i] + ", ");
+
+            for (int i=1; i <= 4; i++){
+                System.out.print("d" + (i) + " = " + digitosSacados[i-1] + ", ");
             }
-            System.out.print("suma = " + suma);
+            System.out.println("suma = " + suma);
 
         }else{
             System.out.println("Debe ingresar un numero de maximo 4 cifras positivas");
