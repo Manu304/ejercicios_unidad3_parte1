@@ -11,7 +11,7 @@ public class Ejercicio12 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese la temperatura en Celsius: ");
         tempC = scanner.nextDouble();
-        tempF = (tempC*(9/5)) + 32;
+        tempF = (tempC*(1.8)) + 32.0;
         System.out.println("La temperatura en Fahrenheit es: " + tempF);   
     }   
 }
