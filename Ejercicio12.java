@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /*
 202030799 Manuel Rojas
-Dise�ar un algoritmo que convierta y muestre la temperatura en 
+Diseñar un algoritmo que convierta y muestre la temperatura en 
 Fahrenheit ingresando la temperatura en Celsius.
 */
 public class Ejercicio12 {
