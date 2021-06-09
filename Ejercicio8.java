@@ -15,7 +15,7 @@ public class Ejercicio8 {
         num2 = scanner.nextInt();
         System.out.print("Ingrese el tercer numero: ");
         num3 = scanner.nextInt();
-        int promedio = (num1 + num2 + num3)/3;
+        double promedio = (num1 + num2 + num3)/3;
         System.out.println("El promedio de los numeros ingresados es: " + promedio);  
     }
 }
