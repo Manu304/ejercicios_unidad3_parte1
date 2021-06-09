@@ -7,7 +7,7 @@ enteros, calcule e imprima el promedio entre ellos.
 */
 public class Ejercicio8 {
     public static void main(String[] args) {
-        int num1, num2, num3;
+        double num1, num2, num3;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el primer numero: ");
         num1 = scanner.nextInt();
