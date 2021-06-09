@@ -8,7 +8,7 @@ public class Ejercicio7 {
         int aleatorio = 0;
         aleatorio = (int) Math.floor(Math.random()*(50-10+1)+10);
         System.out.println("El numero generado es: " + aleatorio);
-        double disminuido = (0.15*aleatorio) + aleatorio;
+        double disminuido = aleatorio - (0.15*aleatorio);
         System.out.println("El numero aleatorio disminuido en un 15% es: " + disminuido);
-    } 
+    }
 }
