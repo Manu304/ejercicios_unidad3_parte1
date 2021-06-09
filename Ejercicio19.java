@@ -9,6 +9,7 @@ public class Ejercicio19 {
         int aleatorio, multiplo5;
         aleatorio = (int) Math.floor(Math.random()*(1000-1+1)+1);
         multiplo5 = aleatorio%5;
+        System.out.println(aleatorio);
         if ((multiplo5 == 0) && (multiplo5 <= 25)){
             System.out.println("Correcto");
         }
