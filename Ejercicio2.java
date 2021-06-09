@@ -8,11 +8,10 @@ Y luego muestre la capital del pais
 public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String pais;
-        String capital;
         System.out.print("Ingrese el nombre de un pais: ");
-        pais = scanner.nextLine();
-        capital = scanner.nextLine();
+        String pais = scanner.nextLine();
+        System.out.print("Ingrese la capital del pais que ingreso: ");
+        String capital = scanner.nextLine();
         System.out.println(capital + " es la capital de " + pais);
     }
 }
