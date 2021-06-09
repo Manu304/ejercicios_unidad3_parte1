@@ -10,11 +10,11 @@ public class Ejercicio8 {
         double num1, num2, num3;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el primer numero: ");
-        num1 = scanner.nextInt();
+        num1 = scanner.nextDouble();
         System.out.print("Ingrese el segundo numero: ");
-        num2 = scanner.nextInt();
+        num2 = scanner.nextDouble();
         System.out.print("Ingrese el tercer numero: ");
-        num3 = scanner.nextInt();
+        num3 = scanner.nextDouble();
         double promedio = (num1 + num2 + num3)/3;
         System.out.println("El promedio de los numeros ingresados es: " + promedio);  
     }
